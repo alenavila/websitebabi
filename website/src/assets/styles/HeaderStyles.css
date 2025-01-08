@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    outline: auto rgb(236, 236, 236);
+    color: white;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+header.container ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  /* LI Styling */
+  header.container ul li {
+    margin: 0 60px;
+    font-size: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  header #icon{
+    margin-right: 8px;
+  }
